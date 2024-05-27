@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--=============== REMIXICONS ===============-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+     <!--=============== CSS ===============-->
+     <link rel="stylesheet" href="./css/normalize.css">
+     <link rel="stylesheet" href="./css/estilos.css">
+
+    <title>Ni Hyruuya Na'</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body>
+     <!--==================== HEADER ====================-->
+     <header class="header" id="header">
+        <nav class="nav container">
+           <a href="index.html" class="nav__logo">NI HY<strong>RUUYA NA'</strong></a>
+
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li class="nav__item">
+                    <a href="agua_dulce.html" class="nav__link">Agua dulce</a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="agua_salada.html" class="nav__link">Agua salada</a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="agua_salobre.html" class="nav__link">Agua salobre</a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="simulador.html" class="nav__link">Simulador</a>
+                 </li>
+
+                 <li class="nav__item">
+                    <a href="nosotros.html" class="nav__link">Nosotros</a>
+                 </li>
+
+                 
+              </ul>
+              <!-- Close button -->
+              <div class="nav__close" id="nav-close">
+                <i class="ri-close-line"></i>
+             </div>
+          </div>
+
+          <div class="nav__actions">
+             <!-- Search button -->
+             <i class="ri-search-line nav__search" id="search-btn"></i>
+
+             <!-- Login button -->
+             <i class="ri-user-line nav__login" id="login-btn"></i>
+
+             <!-- Toggle button -->
+             <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+             </div>
+          </div>
+       </nav>
+    </header>
+     <!--==================== SEARCH ====================-->
+     <div class="search" id="search">
+        <form action="#" class="search__form">
+        <i class="ri-search-line search__icon"></i>
+        <input type="search" placeholder="¿Qué estás buscando?" class="search__input">
+        
+    <ul class="search__results" id="search-results">
+        <!-- Ejemplos de elementos buscables -->
+        <li><a href="agua_dulce.html" data-searchable>Agua dulce</a></li>
+        <li><a href="agua_salada.html" data-searchable>Agua salada</a></li>
+        <li><a href="agua_salobre.html" data-searchable>Agua salobre</a></li>
+        <li><a href="ajolote.html" data-searchable>Axolote</a></li>
+        <li><a href="barbo.html" data-searchable>Barbo tigre</a></li>
+        <li><a href="betta.html" data-searchable>Betta</a></li>
+        <li><a href="caballito_de_mar.html" data-searchable>Caballito de mar</a></li>
+        <li><a href="camaron_cristal.html" data-searchable>Camaron cristal</a></li>
+        <li><a href="cangrejo_de_rio.html" data-searchable>Cangrejo de rio</a></li>
+        <li><a href="caracol_manzana.html" data-searchable>Caracol manzana</a></li>
+        <li><a href="cocodrilo_enano.html" data-searchable>Cocodrilo enano</a></li>
+        <li><a href="fiddler.html" data-searchable>Cangrejo fiddler</a></li>
+        <li><a href="goldfish.html" data-searchable>Goldfish</a></li>
+        <li><a href="guppys.html" data-searchable>Guppy</a></li>
+        <li><a href="hermitaño.html" data-searchable>Cangrejo hermitaño</a></li>
+        <li><a href="medusa_acropolis.html" data-searchable>Medusa acropolis</a></li>
+        <li><a href="medusa_luna.html" data-searchable>Medusa luna</a></li>
+        <li><a href="molly.html" data-searchable>Molly</a></li>
+        <li><a href="nosotros.html" data-searchable>Nosotros</a></li>
+        <li><a href="pez_angel_emperador.html" data-searchable>Pez angel emperador</a></li>
+        <li><a href="pez_angel.html" data-searchable>Pez angel</a></li>
+        <li><a href="pez_arquero.html" data-searchable>Pez arquero</a></li>
+        <li><a href="pez_cirujano.html" data-searchable>Pez cirujano</a></li>
+        <li><a href="pez_cirujano_amarillo.html" data-searchable>Pez cirujano amarillo</a></li>
+        <li><a href="pez_damisela.html" data-searchable>Pez damisela</a></li>
+        <li><a href="pez_disco.html" data-searchable>Pez disco</a></li>
+        <li><a href="pez_escorpion.html" data-searchable>Pez escorpion</a></li>
+        <li><a href="pez_globo.html" data-searchable>Pez globo</a></li>
+        <li><a href="pez_gobio.html" data-searchable>Pez gobio</a></li>
+        <li><a href="pez_leon.html" data-searchable>Pez leon</a></li>
+        <li><a href="pez_mandarin.html" data-searchable>Pez mandarin</a></li>
+        <li><a href="pez_mariposa.html" data-searchable>Pez mariposa</a></li>
+        <li><a href="pez_payaso.html" data-searchable>Pez payaso</a></li>
+        <li><a href="platys.html" data-searchable>Platy</a></li>
+        <li><a href="pompom.html" data-searchable>Cangrejo pom pom</a></li>
+        <li><a href="porcelana.html" data-searchable>Cangrejo de porcelana</a></li>
+        <li><a href="pulpo_anillos_azules.html" data-searchable>Pulpo anillos azules</a></li>
+        <li><a href="pulpo_comun.html" data-searchable>Pulpo comun</a></li>
+        <li><a href="tetra.html" data-searchable>Tetra</a></li>
+        <li><a href="tortuga_orejas_rojas.html" data-searchable>Tortuga orejas rojas</a></li>
+        <li><a href="vampiro.html" data-searchable>Cangrejo vampiro</a></li>
+
+        
+    </ul>
+    
+</form>
+<i class="ri-close-line search__close" id="search-close"></i>
+</div>
+      <!--==================== LOGIN ====================-->
+      <div class="login" id="login">
+        <form action="" class="login__form">
+           <h2 class="login__title">Iniciar sesion</h2>
+           
+           <div class="login__group">
+              <div>
+                 <label for="email" class="login__label">Correo electronico</label>
+                 <input type="email" placeholder="Ingresa tu correo" id="email" class="login__input">
+              </div>
+              
+              <div>
+                 <label for="password" class="login__label">Contraseña</label>
+                 <input type="password" placeholder="Ingresa tu contraseña" id="password" class="login__input">
+              </div>
+           </div>
+
+           <div>
+              <p class="login__signup">
+                 No tienes una cuenta? <a href="#">Crear cuenta</a>
+              </p>
+  
+              <a href="#" class="login__forgot">
+                 Olvidaste tu contraseña?
+              </a>
+  
+              <button type="submit" class="login__button">Ingresa</button>
+           </div>
+        </form>
+
+        <i class="ri-close-line login__close" id="login-close"></i>
+     </div>
+
+
+
+
+     <section class="knowledge">
+        <div class="knowledge__container container">
+            <div class="knowledege__texts">
+                <h2 class="ksubtitle">NI HYRUUYA NA'</h2>
+                <p class="knowledge__paragraph">Soy Luis Manuel Zárate López, un estudiante apasionado
+                    por el cuidado de los animales y la conservación del 
+                    medio ambiente. Estoy cursando la Ingeniería en Sistemas
+                    Computacionales en el Instituto Tecnológico Superior de
+                    Teposcolula. Mi interés en las mascotas acuáticas y su 
+                    bienestar me ha llevado a emprender este proyecto con 
+                    el objetivo de contribuir a su preservación y fomentar 
+                    prácticas responsables entre los amantes de los animales.
+                </p>
+            </div>
+
+            <figure class="knowledge__picture">
+                <img src="images/favicon.png" class="knowledge__img">
+            </figure>
+        </div>
+    </section>
+
+
+    <section class="container about">
+        <h2 class="subtitle">¿Qué es lo que buscamos?</h2>
+        <p class="about__paragraph">Nosotros somos parte de una comunidad interesada en el cuidado de las mascotas acuaticas existentes, queremos incursionar en una forma inovadora para que aquellos interesados en adentrarse en el cuidado de peces puedan hacerlo</p>
+
+        <div class="about__main">
+            <article class="about__icons">
+                <h3 class="about__title">MISION</h3>
+                <p class="about__paragrah">La misión de mi proyecto es educar y concienciar a
+                    la comunidad sobre la importancia del cuidado 
+                   adecuado de las mascotas acuáticas y la preservación
+                    de sus hábitats. A través de la información y el 
+                   asesoramiento, busco promover prácticas responsables
+                    entre los propietarios de mascotas acuáticas, así como
+                    inspirar a otros a comprometerse con la conservación
+                    del medio ambiente acuático.</p>
+            </article>
+
+            <article class="about__icons">
+                <h3 class="about__title">VISION</h3>
+                <p class="about__paragrah">Mi visión es un mundo donde todas las mascotas 
+                    acuáticas sean tratadas con el respeto y el cuidado 
+                    que merecen, donde sus necesidades físicas y 
+                    emocionales sean atendidas de manera adecuada. 
+                    Aspiro a un futuro en el que los ecosistemas acuáticos
+                     estén equilibrados y protegidos, y donde la comunidad
+                     esté comprometida con la preservación de la vida 
+                    marina y los hábitats acuáticos.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="container ob">
+        <h2 class="osubtitle">Objetivos</h2>
+    
+        <div class="dev_des">
+            <!-- lorem 50 -->
+            <ul>
+                <li><b>Educar a los propietarios:</b> : de mascotas acuáticas sobre las necesidades específicas de sus animales, incluyedo
+                    alimentación adecuada, condiciones del agua, y espacio adecuado para vivir.
+                    </li>
+                <li><b>Promover prácticas de adopción:</b>  responsable y desalentar la compra de mascotas acuáticas de fuentes no éticas.</li>
+                <li><b>Proporcionar recursos y orientación :</b>  para el mantenimiento adecuado de acuarios y estanques, fomentando la
+                    sostenibilidad y el bienestar animal.
+                   
+                </li>
+                <li><b>Colaborar con organizaciones locales y autoridades ambientales:</b>  para llevar a cabo acciones de conservación y 
+                    restauración de ecosistemas acuáticos.
+                    </li>
+                <li><b>Organizar eventos educativos y actividades :</b>  de sensibilización en la comunidad para promover el respeto y la 
+                    protección de las mascotas acuáticas y su entorno natural.
+                   
+                </li>
+                </ul>
+        </div>
+    </section>
+
+
+
+
+
+    
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="index.html">Inicio</a></li>
+                    <li><a href="agua_dulce.html">Especies de agua dulce</a></li>
+                    <li><a href="agua_salada.html">Especies de agua salada</a></li>
+                    <li><a href="agua_salobre.html">Especies de agua salobre</a></li>
+                    <li><a href="simulador.html">Similador</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">Ni Hyruuya Na'</span></p>
+        </div>
+    </footer>
+      
+  
+<script src="js/menu.js"></script>
+<script src="./js/questions.js"></script>
+<script src="./js/menu.js"></script>
+<script src="js/habitats.js"></script>
+<script src="js/articulo.js"></script>
+<script src="js/buscador.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!--=============== REMIXICONS ===============-->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+         <!--=============== CSS ===============-->
+         <link rel="stylesheet" href="./css/normalize.css">
+         <link rel="stylesheet" href="css/animalesS_2.css">
+    
+        <title>Cangrejo vampiro</title>
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body>
+     <!--==================== HEADER ====================-->
+     <header class="header" id="header">
+        <nav class="nav container">
+           <a href="index.html" class="nav__logo">NI HY<strong>RUUYA NA'</strong></a>
+  
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li class="nav__item">
+                    <a href="agua_dulce.html" class="nav__link">Agua dulce</a>
+                 </li>
+  
+                 <li class="nav__item">
+                    <a href="agua_salada.html" class="nav__link">Agua salada</a>
+                 </li>
+  
+                 <li class="nav__item">
+                    <a href="agua_salobre.html" class="nav__link">Agua salobre</a>
+                 </li>
+  
+                 <li class="nav__item">
+                    <a href="simulador.html" class="nav__link">Simulador</a>
+                 </li>
+  
+                 <li class="nav__item">
+                    <a href="nosotros.html" class="nav__link">Nosotros</a>
+                 </li>
+  
+                 
+              </ul>
+              <!-- Close button -->
+              <div class="nav__close" id="nav-close">
+                <i class="ri-close-line"></i>
+             </div>
+          </div>
+  
+          <div class="nav__actions">
+             <!-- Search button -->
+             <i class="ri-search-line nav__search" id="search-btn"></i>
+  
+             <!-- Login button -->
+             <i class="ri-user-line nav__login" id="login-btn"></i>
+  
+             <!-- Toggle button -->
+             <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+             </div>
+          </div>
+       </nav>
+    </header>
+     <!--==================== SEARCH ====================-->
+     <div class="search" id="search">
+        <form action="#" class="search__form">
+        <i class="ri-search-line search__icon"></i>
+        <input type="search" placeholder="¿Qué estás buscando?" class="search__input">
+        
+    <ul class="search__results" id="search-results">
+        <!-- Ejemplos de elementos buscables -->
+        <li><a href="agua_dulce.html" data-searchable>Agua dulce</a></li>
+        <li><a href="agua_salada.html" data-searchable>Agua salada</a></li>
+        <li><a href="agua_salobre.html" data-searchable>Agua salobre</a></li>
+        <li><a href="ajolote.html" data-searchable>Axolote</a></li>
+        <li><a href="barbo.html" data-searchable>Barbo tigre</a></li>
+        <li><a href="betta.html" data-searchable>Betta</a></li>
+        <li><a href="caballito_de_mar.html" data-searchable>Caballito de mar</a></li>
+        <li><a href="camaron_cristal.html" data-searchable>Camaron cristal</a></li>
+        <li><a href="cangrejo_de_rio.html" data-searchable>Cangrejo de rio</a></li>
+        <li><a href="caracol_manzana.html" data-searchable>Caracol manzana</a></li>
+        <li><a href="cocodrilo_enano.html" data-searchable>Cocodrilo enano</a></li>
+        <li><a href="fiddler.html" data-searchable>Cangrejo fiddler</a></li>
+        <li><a href="goldfish.html" data-searchable>Goldfish</a></li>
+        <li><a href="guppys.html" data-searchable>Guppy</a></li>
+        <li><a href="hermitaño.html" data-searchable>Cangrejo hermitaño</a></li>
+        <li><a href="medusa_acropolis.html" data-searchable>Medusa acropolis</a></li>
+        <li><a href="medusa_luna.html" data-searchable>Medusa luna</a></li>
+        <li><a href="molly.html" data-searchable>Molly</a></li>
+        <li><a href="nosotros.html" data-searchable>Nosotros</a></li>
+        <li><a href="pez_angel_emperador.html" data-searchable>Pez angel emperador</a></li>
+        <li><a href="pez_angel.html" data-searchable>Pez angel</a></li>
+        <li><a href="pez_arquero.html" data-searchable>Pez arquero</a></li>
+        <li><a href="pez_cirujano.html" data-searchable>Pez cirujano</a></li>
+        <li><a href="pez_cirujano_amarillo.html" data-searchable>Pez cirujano amarillo</a></li>
+        <li><a href="pez_damisela.html" data-searchable>Pez damisela</a></li>
+        <li><a href="pez_disco.html" data-searchable>Pez disco</a></li>
+        <li><a href="pez_escorpion.html" data-searchable>Pez escorpion</a></li>
+        <li><a href="pez_globo.html" data-searchable>Pez globo</a></li>
+        <li><a href="pez_gobio.html" data-searchable>Pez gobio</a></li>
+        <li><a href="pez_leon.html" data-searchable>Pez leon</a></li>
+        <li><a href="pez_mandarin.html" data-searchable>Pez mandarin</a></li>
+        <li><a href="pez_mariposa.html" data-searchable>Pez mariposa</a></li>
+        <li><a href="pez_payaso.html" data-searchable>Pez payaso</a></li>
+        <li><a href="platys.html" data-searchable>Platy</a></li>
+        <li><a href="pompom.html" data-searchable>Cangrejo pom pom</a></li>
+        <li><a href="porcelana.html" data-searchable>Cangrejo de porcelana</a></li>
+        <li><a href="pulpo_anillos_azules.html" data-searchable>Pulpo anillos azules</a></li>
+        <li><a href="pulpo_comun.html" data-searchable>Pulpo comun</a></li>
+        <li><a href="tetra.html" data-searchable>Tetra</a></li>
+        <li><a href="tortuga_orejas_rojas.html" data-searchable>Tortuga orejas rojas</a></li>
+        <li><a href="vampiro.html" data-searchable>Cangrejo vampiro</a></li>
+
+        
+    </ul>
+    
+</form>
+<i class="ri-close-line search__close" id="search-close"></i>
+</div>
+      <!--==================== LOGIN ====================-->
+      <div class="login" id="login">
+        <form action="" class="login__form">
+           <h2 class="login__title">Iniciar sesion</h2>
+           
+           <div class="login__group">
+              <div>
+                 <label for="email" class="login__label">Correo electronico</label>
+                 <input type="email" placeholder="Ingresa tu correo" id="email" class="login__input">
+              </div>
+              
+              <div>
+                 <label for="password" class="login__label">Contraseña</label>
+                 <input type="password" placeholder="Ingresa tu contraseña" id="password" class="login__input">
+              </div>
+           </div>
+  
+           <div>
+              <p class="login__signup">
+                 No tienes una cuenta? <a href="#">Crear cuenta</a>
+              </p>
+  
+              <a href="#" class="login__forgot">
+                 Olvidaste tu contraseña?
+              </a>
+  
+              <button type="submit" class="login__button">Ingresa</button>
+           </div>
+        </form>
+  
+        <i class="ri-close-line login__close" id="login-close"></i>
+     </div>
+  
+  <!--==================== Landing ====================-->
+  
+  <article class="landing">
+     <div class="landing__content">
+         <h1 class="landing__title">CANGREJO VAMPIRO</h1>
+         <p class="landing__text"> Geosesarma </p>
+     </div>
+  </article>
+
+  <section class="knowledge">
+    <div class="knowledge__container container">
+        <div class="knowledege__texts">
+            <h2 class="ksubtitle">Descripcion</h2>
+            <p class="knowledge__paragraph">
+                
+                
+                Los cangrejos vampiros son una de las criaturas más impresionantes que puedes mantener en cautiverio. ¡Sus colores únicos son algo que necesitas ver para creer!
+ </div>
+ </section>
+
+ 
+
+
+    <!-- carousel -->
+    <div class="dev_carousel">
+        <!-- dev list item -->
+        <div class="dev_list">
+            <div class="dev_item">
+                <img src="images/vampiro2.jpg">
+                <div class="dev_content">
+                    <div class="dev_title">El cangrejo vampiro como mascota</div>
+                    <div class="dev_topic">Medidas para un acuario</div>
+                    <div class="dev_des">
+                        <!-- lorem 50 -->
+                        <ul>
+                            <li><b>Volumen del acuario:</b>  El tamaño ideal es de aproximadamente 40 litros..</li>
+                            <li><b> pH:</b>   La salinidad óptima  está entre 1.020 y 1.025 de gravedad específica.  El pH adecuado es entre 8.1 y 8.4</li>
+                            <li><b>Temperatura del agua:</b>  Mantener la temperatura del agua dentro del rango de 24-28 °C (75-82 °F) es crucial para su salud y bienestar. Un calentador de acuario puede ser necesario para mantener una temperatura estable, especialmente en climas más fríos.</li>
+                            </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- more dev items -->
+            <div class="dev_item">
+                <img src="images/vampiro3.jpg">
+                <div class="dev_content">
+                    <div class="dev_title">El cangrejo vampiro como mascota</div>
+                    <div class="dev_topic">Medidas para un acuario</div>
+                    <div class="dev_des">
+                        <!-- lorem 50 -->
+                        <ul>
+                            <li><b>Sustrato:</b> : La arcilla es una buena opción frente a la grava o la arena, ya que proporciona más nutrientes para la vegetación y mejora la calidad del agua</li>
+                            <li><b>Filtracion:</b>  Es crucial contar con un filtro potente en el acuario. Esto ayudará a mantener la calidad del agua y eliminar sustancias tóxicas. Además, realiza cambios de agua periódicos para evitar la acumulación de residuos y mantener un ambiente saludable.</li>
+                            <li><b>Escondites :</b>  Puedes usar madera flotante, rocas, macetas de arcilla volteadas, cuevas de resina y plantas vivas.
+                            </li>
+                            </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="dev_item">
+                <img src="images/vampiro4.jpg">
+                <div class="dev_content">
+                    <div class="dev_title">El cangrejo vampiro como mascota</div>
+                    <div class="dev_topic">Medidas para un acuario</div>
+                    <div class="dev_des">
+                        <ul>
+                            <li><b>Alimentación:</b>son omnívoros y se alimentan de una combinación de materia vegetal y pequeños invertebrados. En su hábitat natural, suelen capturar insectos y detritos de plantas
+                            </li>
+                            <li><b>Iluminacion:</b>son nocturnos, por lo que es importante vigilar tanto los cambios de temperatura como el fotoperiodo. Mantén una iluminación de 12 horas para simular su entorno natural.
+                    
+                </div>
+            </div>
+        </div>
+        <!-- dev thumbnail -->
+        <div class="dev_thumbnail">
+            <div class="dev_item">
+                <img src="images/vampiro2.jpg">
+                <div class="dev_content">
+                    
+                </div>
+            </div>
+            <!-- more dev items -->
+            <div class="dev_item">
+                <img src="images/vampiro3.jpg">
+                <div class="dev_content">
+                   
+                </div>
+            </div>
+            <div class="dev_item">
+                <img src="images/vampiro4.jpg">
+                <div class="dev_content">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- dev arrows -->
+        <div class="dev_arrows">
+            <button id="dev_prev">&lt;</button>
+            <button id="dev_next">&gt;</button>
+        </div>
+        <!-- dev time running -->
+        <div class="dev_time"></div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+ <section class="questions container">
+    <h2 class="psubtitle">Datos de improtancia</h2>
+    <p class="questions__paragraph">Otros datos de importancia de la especie</p>
+    <section class="questions__container">
+        <article class="questions__padding">
+            <div class="questions__answer">
+                <h3 class="questions__title">Longevidad
+                    <span class="questions__arrow">
+                        <img src="./images/arrow.svg" class="questions__img">
+                    </span>
+                </h3>
+ 
+                <p class="questions__show"> : 2 años como máximo, tanto en cautiverio como en la naturaleza</p>
+
+            </div>
+        </article>
+ 
+        <article class="questions__padding">
+            <div class="questions__answer">
+                <h3 class="questions__title">Reproduccion
+                    <span class="questions__arrow">
+                        <img src="./images/arrow.svg" class="questions__img">
+                    </span>
+                </h3>
+ 
+                <p class="questions__show"> No se conoce mucha información sobre la reproducción de los cangrejos vampiros. De sus huevos nacerá entre 50 y 60 crías que la hembra cargará en el abdomen hasta que los suelta en el agua cuando alcanzan el tamaño de una mosca de la fruta</p>
+
+            </div>
+        </article>
+ 
+        <article class="questions__padding">
+            <div class="questions__answer">
+                <h3 class="questions__title">Frecuencia de reproduccion
+                    <span class="questions__arrow">
+                        <img src="./images/arrow.svg" class="questions__img">
+                    </span>
+                </h3>                    
+                <p class="questions__show"> aproximadamente dos veces al año. </p>
+
+             </div>
+        </article>
+
+
+        <article class="questions__padding">
+            <div class="questions__answer">
+                <h3 class="questions__title">Estado en la naturaleza
+                    <span class="questions__arrow">
+                        <img src="./images/arrow.svg" class="questions__img">
+                    </span>
+                </h3>                    
+                <p class="questions__show"> son endémicos de la isla de Java. Su hábitat único consiste en áreas sombreadas cerca de arroyos y ríos, donde pueden buscar refugio bajo el follaje y troncos caídos.</p>
+
+             </div>
+        </article>
+    </section>
+
+
+<section>
+    <h2 class="ssubtitle">Anatomia</h2>
+ <div class="slider">
+    <div class="item">
+        <h1><b>Coloracion</b></h1>
+        llamativo color violeta, entre naranja y rojo. Sus cuerpos están cubiertos de un tono púrpura oscuro. Además, el color es más brillante en sus patas y garras. En algunos ejemplares, las garras adquieren un tono rosado más claro</div>
+    <div class="item">
+        <h1><b>patas</b></h1>
+        sus patas son rojas con tonos de amarillo. Su apariencia es terrorífica y la gran migración ha hecho que en algunas partes se les llame “cangrejos zombie” debido a su aspecto inusual
+</div>
+    <div class="item">
+        <h1><b>tamaño</b></h1>
+        aproximadamente 2 pulgadas de ancho. Esta medida incluye la longitud de sus piernas. El caparazón, que es su cuerpo principal, mide solo alrededor de una pulgada de ancho</div>  
+    <div class="item ">
+        <h1><b>Antenas</b></h1>
+        Posee dos antenas largas para tocar y dos antenas cortas para olfatear y detectar sabores. </div>
+        <div class="item ">
+            <h1><b>Ojos</b></h1>
+            ubicados en tallos en la cabeza y tienen la capacidad de descomponer la imagen en varias piezas.</div>
+            <div class="item ">
+                <h1><b>caparazon</b></h1>
+                El caparazón de los cangrejos vampiros es negro.</div>
+ 
+    
+         
+    <button id="next">></button>
+    <button id="prev"><</button>
+</div>
+</section>
+
+
+
+<div class="card-container"></div>
+<h2 class="psubtitle">Familiares de la especie</h2>
+<div class="ui-card">
+	<img src="images/atig.jpeg">
+	<div class="description">
+		<h3>Salamadra Tigre</h3>
+		<p>Ambystoma Tigrinum</p>
+	</div>
+</div>
+<div class="ui-card">
+	<img src="images/amav.jpeg">
+	<div class="description">
+		<h3>Salamandra tigre barrada</h3>
+		<p>Ambystoma Mavortium</p>
+	</div>
+</div>
+<div class="ui-card">
+	<img src="images/aopa.jpeg">
+	<div class="description">
+		<h3>Salamandra jaspeada</h3>
+		<p>Ambystoma opacum</p>
+	</div>
+</div>
+</div>
+
+
+ </section>
+<footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/dulce/agua_dulce.html">Especies de agua dulce</a></li>
+                <li><a href="pages/salada/agua_salada.html">Especies de agua salada</a></li>
+                <li><a href="salobre/agua_salobre.html">Especies de agua salobre</a></li>
+                <li><a href="simulador.html">Similador</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2023; Designed by <span class="designer">Ni Hyruuya Na'</span></p>
+    </div>
+</footer>
+
+  
+  
+  <script src="js/menu.js"></script>
+  <script src="./js/questions.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/slider_datos.js"></script>
+  <script src="./js/slider_animal.js"></script>
+  <script src="js/buscador.js"></script>
+</body>
+</html>

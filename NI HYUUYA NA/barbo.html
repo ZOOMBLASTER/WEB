@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!--=============== REMIXICONS ===============-->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+         <!--=============== CSS ===============-->
+         <link rel="stylesheet" href="./css/normalize.css">
+         <link rel="stylesheet" href="css/animales_2.css">
+    
+        <title>Barbo tigre</title>
+        <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+<body>
+     <!--==================== HEADER ====================-->
+     <header class="header" id="header">
+        <nav class="nav container">
+           <a href="index.html" class="nav__logo">NI HY<strong>RUUYA NA'</strong></a>
+  
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li class="nav__item">
+                    <a href="agua_dulce.html" class="nav__link">Agua dulce</a>
+                 </li>
+  
+                 <li class="nav__item">
+                    <a href="agua_salada.html" class="nav__link">Agua salada</a>
+                 </li>
+  
+                 <li class="nav__item">
+                    <a href="agua_salobre.html" class="nav__link">Agua salobre</a>
+                 </li>
+  
+                 <li class="nav__item">
+                    <a href="simulador.html" class="nav__link">Simulador</a>
+                 </li>
+  
+                 <li class="nav__item">
+                    <a href="nosotros.html" class="nav__link">Nosotros</a>
+                 </li>
+  
+                 
+              </ul>
+              <!-- Close button -->
+              <div class="nav__close" id="nav-close">
+                <i class="ri-close-line"></i>
+             </div>
+          </div>
+  
+          <div class="nav__actions">
+             <!-- Search button -->
+             <i class="ri-search-line nav__search" id="search-btn"></i>
+  
+             <!-- Login button -->
+             <i class="ri-user-line nav__login" id="login-btn"></i>
+  
+             <!-- Toggle button -->
+             <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+             </div>
+          </div>
+       </nav>
+    </header>
+     <!--==================== SEARCH ====================-->
+     <div class="search" id="search">
+        <form action="#" class="search__form">
+        <i class="ri-search-line search__icon"></i>
+        <input type="search" placeholder="¿Qué estás buscando?" class="search__input">
+        
+    <ul class="search__results" id="search-results">
+        <!-- Ejemplos de elementos buscables -->
+        <li><a href="agua_dulce.html" data-searchable>Agua dulce</a></li>
+        <li><a href="agua_salada.html" data-searchable>Agua salada</a></li>
+        <li><a href="agua_salobre.html" data-searchable>Agua salobre</a></li>
+        <li><a href="ajolote.html" data-searchable>Axolote</a></li>
+        <li><a href="barbo.html" data-searchable>Barbo tigre</a></li>
+        <li><a href="betta.html" data-searchable>Betta</a></li>
+        <li><a href="caballito_de_mar.html" data-searchable>Caballito de mar</a></li>
+        <li><a href="camaron_cristal.html" data-searchable>Camaron cristal</a></li>
+        <li><a href="cangrejo_de_rio.html" data-searchable>Cangrejo de rio</a></li>
+        <li><a href="caracol_manzana.html" data-searchable>Caracol manzana</a></li>
+        <li><a href="cocodrilo_enano.html" data-searchable>Cocodrilo enano</a></li>
+        <li><a href="fiddler.html" data-searchable>Cangrejo fiddler</a></li>
+        <li><a href="goldfish.html" data-searchable>Goldfish</a></li>
+        <li><a href="guppys.html" data-searchable>Guppy</a></li>
+        <li><a href="hermitaño.html" data-searchable>Cangrejo hermitaño</a></li>
+        <li><a href="medusa_acropolis.html" data-searchable>Medusa acropolis</a></li>
+        <li><a href="medusa_luna.html" data-searchable>Medusa luna</a></li>
+        <li><a href="molly.html" data-searchable>Molly</a></li>
+        <li><a href="nosotros.html" data-searchable>Nosotros</a></li>
+        <li><a href="pez_angel_emperador.html" data-searchable>Pez angel emperador</a></li>
+        <li><a href="pez_angel.html" data-searchable>Pez angel</a></li>
+        <li><a href="pez_arquero.html" data-searchable>Pez arquero</a></li>
+        <li><a href="pez_cirujano.html" data-searchable>Pez cirujano</a></li>
+        <li><a href="pez_cirujano_amarillo.html" data-searchable>Pez cirujano amarillo</a></li>
+        <li><a href="pez_damisela.html" data-searchable>Pez damisela</a></li>
+        <li><a href="pez_disco.html" data-searchable>Pez disco</a></li>
+        <li><a href="pez_escorpion.html" data-searchable>Pez escorpion</a></li>
+        <li><a href="pez_globo.html" data-searchable>Pez globo</a></li>
+        <li><a href="pez_gobio.html" data-searchable>Pez gobio</a></li>
+        <li><a href="pez_leon.html" data-searchable>Pez leon</a></li>
+        <li><a href="pez_mandarin.html" data-searchable>Pez mandarin</a></li>
+        <li><a href="pez_mariposa.html" data-searchable>Pez mariposa</a></li>
+        <li><a href="pez_payaso.html" data-searchable>Pez payaso</a></li>
+        <li><a href="platys.html" data-searchable>Platy</a></li>
+        <li><a href="pompom.html" data-searchable>Cangrejo pom pom</a></li>
+        <li><a href="porcelana.html" data-searchable>Cangrejo de porcelana</a></li>
+        <li><a href="pulpo_anillos_azules.html" data-searchable>Pulpo anillos azules</a></li>
+        <li><a href="pulpo_comun.html" data-searchable>Pulpo comun</a></li>
+        <li><a href="tetra.html" data-searchable>Tetra</a></li>
+        <li><a href="tortuga_orejas_rojas.html" data-searchable>Tortuga orejas rojas</a></li>
+        <li><a href="vampiro.html" data-searchable>Cangrejo vampiro</a></li>
+
+        
+    </ul>
+    
+</form>
+<i class="ri-close-line search__close" id="search-close"></i>
+</div>
+      <!--==================== LOGIN ====================-->
+      <div class="login" id="login">
+        <form action="" class="login__form">
+           <h2 class="login__title">Iniciar sesion</h2>
+           
+           <div class="login__group">
+              <div>
+                 <label for="email" class="login__label">Correo electronico</label>
+                 <input type="email" placeholder="Ingresa tu correo" id="email" class="login__input">
+              </div>
+              
+              <div>
+                 <label for="password" class="login__label">Contraseña</label>
+                 <input type="password" placeholder="Ingresa tu contraseña" id="password" class="login__input">
+              </div>
+           </div>
+  
+           <div>
+              <p class="login__signup">
+                 No tienes una cuenta? <a href="#">Crear cuenta</a>
+              </p>
+  
+              <a href="#" class="login__forgot">
+                 Olvidaste tu contraseña?
+              </a>
+  
+              <button type="submit" class="login__button">Ingresa</button>
+           </div>
+        </form>
+  
+        <i class="ri-close-line login__close" id="login-close"></i>
+     </div>
+  
+  <!--==================== Landing ====================-->
+  
+  <article class="landing">
+     <div class="landing__content">
+         <h1 class="landing__title">BARBO TIGRE</h1>
+         <p class="landing__text">Puntius Tetrazona</p>
+     </div>
+  </article>
+
+  <section class="knowledge">
+    <div class="knowledge__container container">
+        <div class="knowledege__texts">
+            <h2 class="ksubtitle">Descripcion</h2>
+            <p class="knowledge__paragraph">
+                El barbo tigre, científicamente conocido como Barbus tetrazona, es una especie de pez de agua dulce que se destaca por su llamativo patrón de rayas oscuras sobre un fondo dorado o plateado, que se asemeja a la apariencia de un tigre. Originario del sudeste asiático, este pez es popular en acuarios domésticos debido a su vibrante coloración y su comportamiento activo. Es una especie omnívora que se alimenta principalmente de pequeños invertebrados y plantas, y su tamaño suele oscilar entre los cinco y los diez centímetros en cautiverio. Aunque puede mostrarse algo territorial, el barbo tigre es generalmente pacífico y puede coexistir con una variedad de otros peces comunitarios en el acuario. Su distintivo aspecto y su naturaleza dinámica lo convierten en una adición fascinante y atractiva para cualquier aficionado a la acuariofilia.</p>
+        </div>
+    </div>
+ </section>
+
+ 
+
+
+    <!-- carousel -->
+    <div class="dev_carousel">
+        <!-- dev list item -->
+        <div class="dev_list">
+            <div class="dev_item">
+                <img src="images/barbo1.jpg">
+                <div class="dev_content">
+                    <div class="dev_title">El Barbo tigre como mascota</div>
+                    <div class="dev_topic">Medidas para un acuario</div>
+                    <div class="dev_des">
+                        <!-- lorem 50 -->
+                        <ul>
+                            <li><b>Tamaño del acuario adecuado:</b> El barbo tigre es un pez activo que necesita espacio para nadar. Se recomienda un acuario de al menos 75 litros para un grupo de cinco a seis ejemplares.</li>
+                            <li><b>Calidad del agua:</b> Mantén la calidad del agua óptima con un filtro eficiente y cambios regulares de agua. El pH ideal para el barbo tigre es ligeramente ácido a neutro, entre 6.5 y 7.5.</li>
+                            <li><b>Temperatura del agua:</b> El barbo tigre prefiere temperaturas tropicales, entre 22°C y 28°C. Utiliza un calentador para mantener el agua dentro de este rango.</li>
+                            </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- more dev items -->
+            <div class="dev_item">
+                <img src="images/barbo2.jpg">
+                <div class="dev_content">
+                    <div class="dev_title">El Barbo tigre como mascota</div>
+                    <div class="dev_topic">Medidas para un acuario</div>
+                    <div class="dev_des">
+                        <!-- lorem 50 -->
+                        <ul>
+                            <li><b>Diseño del acuario:</b> Proporciona escondites y refugios mediante plantas vivas, rocas y troncos. El barbo tigre aprecia un entorno que imite su hábitat natural con áreas para explorar y esconderse.</li>
+                            <li><b>Alimentación variada:</b> Ofrece una dieta equilibrada que incluya alimentos comerciales de calidad para peces tropicales, así como alimentos vivos o congelados como larvas de mosquito, daphnia y artemia.</li>
+                            <li><b>Compañeros de acuario adecuados:</b>   Evita mantener el barbo tigre con peces pequeños que puedan ser vistos como presas. Prefiere compañeros de acuario pacíficos y de tamaño similar, como otros barbos, danios o tetras.</li>
+                            </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="dev_item">
+                <img src="images/barbo3.jpeg">
+                <div class="dev_content">
+                    <div class="dev_title">El Barbo tigre como mascota</div>
+                    <div class="dev_topic">Medidas para un acuario</div>
+                    <div class="dev_des">
+                        <ul>
+                            <li><b>Compañeros de acuario adecuados:</b>  El barbo tigre es un pez gregario y se siente más cómodo en grupos de al menos cinco individuos. Mantenerlos en grupos más pequeños puede resultar en comportamiento agresivo o estresante.</li>
+                            <li><b>Iluminación adecuada:</b> Proporciona una iluminación moderada en el acuario, evitando la exposición directa a la luz solar. Esto ayudará a mantener un ambiente confortable y natural para los peces.</li>
+                            <li><b>Monitoreo constante::</b> Observa regularmente a tus peces para detectar signos de enfermedad, estrés o agresión. Responde rápidamente a cualquier problema ajustando las condiciones del acuario o proporcionando atención médica según sea necesario.</li>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- dev thumbnail -->
+        <div class="dev_thumbnail">
+            <div class="dev_item">
+                <img src="images/barbo1.jpg">
+                <div class="dev_content">
+                    
+                </div>
+            </div>
+            <!-- more dev items -->
+            <div class="dev_item">
+                <img src="images/barbo2.jpg">
+                <div class="dev_content">
+                   
+                </div>
+            </div>
+            <div class="dev_item">
+                <img src="images/barbo3.jpeg">
+                <div class="dev_content">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- dev arrows -->
+        <div class="dev_arrows">
+            <button id="dev_prev">&lt;</button>
+            <button id="dev_next">&gt;</button>
+        </div>
+        <!-- dev time running -->
+        <div class="dev_time"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+ <section class="questions container">
+    <h2 class="psubtitle">Datos de improtancia</h2>
+    <p class="questions__paragraph">Otros datos de importancia de la especie</p>
+    <section class="questions__container">
+        <article class="questions__padding">
+            <div class="questions__answer">
+                <h3 class="questions__title">Longevidad
+                    <span class="questions__arrow">
+                        <img src="./images/arrow.svg" class="questions__img">
+                    </span>
+                </h3>
+ 
+                <p class="questions__show"> La longevidad del Puntius tetrazona puede variar según las condiciones de cuidado. En un entorno adecuado, como un acuario bien mantenido con agua limpia y parámetros estables, estos peces pueden vivir entre 5 y 7 años. Sin embargo, factores como la calidad del agua, la dieta y el espacio del acuario pueden influir en su longevidad. </p>
+
+            </div>
+        </article>
+ 
+        <article class="questions__padding">
+            <div class="questions__answer">
+                <h3 class="questions__title">Reproduccion
+                    <span class="questions__arrow">
+                        <img src="./images/arrow.svg" class="questions__img">
+                    </span>
+                </h3>
+ 
+                <p class="questions__show">La reproducción del barbo tigre generalmente ocurre en la naturaleza durante la temporada de lluvias, cuando los cambios en el entorno desencadenan el comportamiento reproductivo. En cautiverio, la reproducción puede ser inducida mediante cambios en la temperatura y la alimentación, así como mediante la introducción de plantas u otros sustratos donde los peces puedan depositar sus huevos.</p>
+
+            </div>
+        </article>
+ 
+        <article class="questions__padding">
+            <div class="questions__answer">
+                <h3 class="questions__title">Frecuencia de reproduccion
+                    <span class="questions__arrow">
+                        <img src="./images/arrow.svg" class="questions__img">
+                    </span>
+                </h3>                    
+                <p class="questions__show">En condiciones óptimas, los barbos tigre pueden reproducirse varias veces al año, especialmente si se proporcionan estímulos adecuados como cambios en la temperatura del agua y una dieta nutritiva. Sin embargo, la frecuencia exacta puede variar y está influenciada por factores como la edad y la salud de los peces.</p>
+
+             </div>
+        </article>
+
+        <article class="questions__padding">
+            <div class="questions__answer">
+                <h3 class="questions__title">Huevos y crias
+                    <span class="questions__arrow">
+                        <img src="./images/arrow.svg" class="questions__img">
+                    </span>
+                </h3>                    
+                <p class="questions__show">Después de la fertilización, los huevos del Puntius tetrazona son generalmente pegajosos y se adhieren a superficies como plantas, rocas o sustratos en el acuario. Los padres no proporcionan cuidado parental y, en algunos casos, pueden consumir los huevos si se sienten estresados o si no hay suficiente cobertura para proteger los huevos. Una vez que eclosionan, las crías son pequeñas y vulnerables, por lo que es importante proporcionarles un entorno seguro y alimentación adecuada para su crecimiento.</p>
+
+             </div>
+        </article>
+
+        <article class="questions__padding">
+            <div class="questions__answer">
+                <h3 class="questions__title">Estado en la naturaleza
+                    <span class="questions__arrow">
+                        <img src="./images/arrow.svg" class="questions__img">
+                    </span>
+                </h3>                    
+                <p class="questions__show"> El Puntius tetrazona es nativo de varios países del sudeste asiático, donde se encuentra en arroyos y ríos con aguas claras y bien oxigenadas. Aunque es una especie relativamente resistente, la degradación del hábitat debido a la deforestación, la contaminación y otras actividades humanas puede amenazar sus poblaciones en la naturaleza. Además, la captura excesiva para el comercio de mascotas también puede representar una amenaza para esta especie en algunas áreas.</p>
+
+             </div>
+        </article>
+    </section>
+
+
+<section>
+    <h2 class="ssubtitle">Anatomia</h2>
+ <div class="slider">
+    <div class="item">
+        <h1><b>Cuerpo</b></h1>
+        Tiene un cuerpo alargado y delgado, típico de muchos ciprínidos. Su cuerpo es de color plateado con cuatro rayas negras distintivas a lo largo de los flancos, que le dan su nombre común de "barbo tigre".   </div>
+    <div class="item">
+        <h1><b>Aletas</b></h1>
+        Presenta las aletas típicas de un pez ciprínido, incluyendo las aletas dorsal, caudal, pectorales, ventrales y anales. Estas aletas suelen tener un ligero tinte rojizo o naranja en los bordes, lo que añade a su atractivo.    </div>
+    <div class="item">
+        <h1><b>Ojos</b></h1>
+        Tienen ojos grandes y redondeados, lo que les proporciona una buena visión y les ayuda a detectar alimentos y posibles peligros en su entorno.    </div>
+  
+    <div class="item ">
+        <h1><b>Boca</b></h1>
+        La boca del barbo tigre es pequeña y está orientada hacia abajo, adaptada para alimentarse principalmente de alimentos que se encuentran en el fondo del acuario, como pequeños invertebrados y algas.    </div>
+ 
+    <div class="item ">
+        <h1><b>Pigmento</b></h1>
+        Está cubierto de escamas pequeñas y tiene una pigmentación natural que puede variar ligeramente entre individuos, aunque las cuatro rayas negras características son consistentes en la mayoría de los ejemplares.  </div>
+    <div class="item ">
+        <h1><b>Tamaño</b></h1>
+        Los barbos tigre suelen crecer hasta alcanzar una longitud de unos 5-7 centímetros en condiciones adecuadas de acuario, aunque en la naturaleza pueden crecer un poco más.   </div>
+    
+    <button id="next">></button>
+    <button id="prev"><</button>
+</div>
+</section>
+
+
+
+<div class="card-container"></div>
+<h2 class="psubtitle">Familiares de la especie</h2>
+<div class="ui-card">
+	<img src="images/atig.jpeg">
+	<div class="description">
+		<h3>Salamadra Tigre</h3>
+		<p>Ambystoma Tigrinum</p>
+	</div>
+</div>
+<div class="ui-card">
+	<img src="images/amav.jpeg">
+	<div class="description">
+		<h3>Salamandra tigre barrada</h3>
+		<p>Ambystoma Mavortium</p>
+	</div>
+</div>
+<div class="ui-card">
+	<img src="images/aopa.jpeg">
+	<div class="description">
+		<h3>Salamandra jaspeada</h3>
+		<p>Ambystoma opacum</p>
+	</div>
+</div>
+</div>
+
+
+ </section>
+<footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/dulce/agua_dulce.html">Especies de agua dulce</a></li>
+                <li><a href="pages/salada/agua_salada.html">Especies de agua salada</a></li>
+                <li><a href="salobre/agua_salobre.html">Especies de agua salobre</a></li>
+                <li><a href="simulador.html">Similador</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2023; Designed by <span class="designer">Ni Hyruuya Na'</span></p>
+    </div>
+</footer>
+
+  
+  
+  <script src="js/menu.js"></script>
+  <script src="./js/questions.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/slider_datos.js"></script>
+  <script src="./js/slider_animal.js"></script>
+  <script src="js/buscador.js"></script>
+</body>
+</html>
