@@ -1,10 +1,6 @@
 <?php
 session_start();
-$conexion = new mysqli("localhost", "root", "", "ni_hyruuya_na", 33065);
-
-if ($conexion->connect_error) {
-    die("Connection failed: " . $conexion->connect_error);
-}
+require_once('conexion.php'); // Se requiere el archivo de conexión
 
 if (isset($_POST['btninicio'])) {
     $email = $conexion->real_escape_string($_POST['email']);
@@ -28,7 +24,6 @@ if (isset($_POST['btninicio'])) {
     } else {
         echo '<script>alert("Correo no registrado");</script>';
     }
-
 }
-
 ?>
+
