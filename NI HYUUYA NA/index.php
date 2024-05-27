@@ -40,7 +40,7 @@
                     </li>
 
                     <li class="nav__item">
-                        <a href="simulador.html" class="nav__link">Simulador</a>
+                        <a href="simulador.php" class="nav__link">Simulador</a>
                     </li>
 
                     <li class="nav__item">
